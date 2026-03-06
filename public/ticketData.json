@@ -6,7 +6,7 @@
     "title": "Login page not loading",
     "description": "User cannot access the login page due to server timeout.",
     "date": "2026-03-01",
-    "customerName": "Rahim Uddin"
+    "customerName": "Oliver Smith"
   },
   {
     "id": "TCK-002",
@@ -15,7 +15,7 @@
     "title": "Password reset email not received",
     "description": "Customer requested password reset but email was not delivered.",
     "date": "2026-03-02",
-    "customerName": "Nusrat Jahan"
+    "customerName": "Amelia Johnson"
   },
   {
     "id": "TCK-003",
@@ -24,7 +24,7 @@
     "title": "Typo in dashboard heading",
     "description": "Dashboard heading contains a spelling mistake.",
     "date": "2026-02-28",
-    "customerName": "Karim Ahmed"
+    "customerName": "George Brown"
   },
   {
     "id": "TCK-004",
@@ -33,7 +33,7 @@
     "title": "Payment gateway error",
     "description": "Users are unable to complete payment using credit card.",
     "date": "2026-03-03",
-    "customerName": "Sadia Rahman"
+    "customerName": "Isla Taylor"
   },
   {
     "id": "TCK-005",
@@ -42,7 +42,7 @@
     "title": "Profile image upload failed",
     "description": "Uploading profile images returns a server error.",
     "date": "2026-03-01",
-    "customerName": "Tanvir Hasan"
+    "customerName": "Harry Wilson"
   },
   {
     "id": "TCK-006",
@@ -51,7 +51,7 @@
     "title": "UI alignment issue",
     "description": "Buttons in settings page are not aligned properly.",
     "date": "2026-02-27",
-    "customerName": "Mariam Akter"
+    "customerName": "Emily Davies"
   },
   {
     "id": "TCK-007",
@@ -60,7 +60,7 @@
     "title": "Application crashes on mobile",
     "description": "The mobile version crashes when opening notifications.",
     "date": "2026-03-04",
-    "customerName": "Arif Hossain"
+    "customerName": "Jack Thompson"
   },
   {
     "id": "TCK-008",
@@ -69,7 +69,7 @@
     "title": "Slow page loading",
     "description": "Dashboard takes more than 10 seconds to load.",
     "date": "2026-03-02",
-    "customerName": "Faria Sultana"
+    "customerName": "Sophia Walker"
   },
   {
     "id": "TCK-009",
@@ -78,7 +78,7 @@
     "title": "Broken link in footer",
     "description": "Support page link in footer redirects to a 404 page.",
     "date": "2026-02-25",
-    "customerName": "Imran Khan"
+    "customerName": "Thomas Wright"
   },
   {
     "id": "TCK-010",
@@ -87,7 +87,7 @@
     "title": "Database connection error",
     "description": "Application fails to connect to the production database.",
     "date": "2026-03-05",
-    "customerName": "Nadia Islam"
+    "customerName": "Charlotte Green"
   },
   {
     "id": "TCK-011",
@@ -96,7 +96,7 @@
     "title": "Search functionality not working",
     "description": "Search bar returns no results even for valid queries.",
     "date": "2026-03-03",
-    "customerName": "Rashid Ahmed"
+    "customerName": "James Hall"
   },
   {
     "id": "TCK-012",
@@ -105,7 +105,7 @@
     "title": "Notification icon missing",
     "description": "Notification icon does not appear in header.",
     "date": "2026-02-26",
-    "customerName": "Lamia Chowdhury"
+    "customerName": "Grace Young"
   },
   {
     "id": "TCK-013",
@@ -114,7 +114,7 @@
     "title": "File download error",
     "description": "Users cannot download PDF reports.",
     "date": "2026-03-04",
-    "customerName": "Shakib Al Hasan"
+    "customerName": "William King"
   },
   {
     "id": "TCK-014",
@@ -123,15 +123,15 @@
     "title": "Email notification delay",
     "description": "System notifications are delivered after several minutes.",
     "date": "2026-03-02",
-    "customerName": "Tasnim Rahman"
+    "customerName": "Lily Scott"
   },
   {
     "id": "TCK-015",
     "status": "Resolved",
     "priority": "Low",
-    "title": "Color theme not applied",
+    "title": "Colour theme not applied",
     "description": "Dark mode theme is not applied after selection.",
     "date": "2026-02-24",
-    "customerName": "Mahmudul Hasan"
+    "customerName": "Henry Adams"
   }
 ]
