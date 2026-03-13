@@ -11,7 +11,7 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex="-1"
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2">
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <li><a>Home</a></li>
                             <li><a href="">FAQ</a></li>
                             <li><a>Change log</a></li>
@@ -22,7 +22,7 @@ const Navbar = () => {
                     </div>
                     <a className="btn btn-ghost text-xl">CS-Ticket System</a>
                 </div>
-                <div className="navbar-end hidden lg:flex">
+                <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li><a>Home</a></li>
                         <li><a href="">FAQ</a></li>
@@ -32,7 +32,7 @@ const Navbar = () => {
                         <li><a href="">Contact</a></li>
                     </ul>
                 </div>
-                 <div className="navbar-end">
+                <div className="navbar-end">
                     <a className="btn bg-gradient-to-r from-[rgb(99,46,227)] to-[rgb(159,98,242)] p-6 text-white rounded-md"><i className="fa-solid fa-plus text-white"></i> New Ticket</a>
                 </div>
             </div>

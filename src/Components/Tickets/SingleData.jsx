@@ -1,23 +1,49 @@
 import React from 'react';
 
-const SingleData = ({ ticket }) => {
+const SingleData = ({ ticket, handleAddTicket }) => {
+    const handleCard = () => {
+        handleAddTicket(ticket);
+    }
+
+    // priority condition
+    const priorityClass =
+        ticket.priority === 'High Priority' ? 'text-red-600' :
+            ticket.priority === 'Medium Priority' ? 'text-yellow-600' :
+                ticket.priority === 'Low Priority' ? 'text-green-600' :
+                    'text-gray-600';
+
+
     return (
         <div>
-            <div className="card bg-base-100 w-96 shadow-sm">
-                <div className="card-body">
+            <div className="card bg-base-100 border-4 border-indigo-500 w-full shadow-sm cursor-pointer hover:shadow-lg transition" onClick={handleCard}>
+                <div className="card-body min-h-[200px] p-3">
                     <h2 className="card-title">
                         {ticket.title}
-                        <div className="badge badge-secondary">{ticket.status}</div>
+                        <div className="badge badge-secondary border-none whitespace-nowrap" style={{
+                            backgroundColor: ticket.status === "In Progress" ? "#F8F3B9" : "#B9F8CF"
+                        }}>
+                            <i className="fa-solid fa-circle" style={{
+                                color: ticket.status === "In Progress" ? "#FEBB0C" : "#02A53B"
+                            }}></i><span style={{
+                                color: ticket.status === "In Progress" ? "#9C7700" : "#0B5E06"
+                            }}>{ticket.status}</span>
+                        </div>
                     </h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                    <div className="card-actions justify-end">
-                        <div className="badge badge-outline">{ticket.customerName}</div>
-                        <div className="badge badge-outline">{ticket.date}</div>
+                    <p>{ticket.description}</p>
+
+                    <div className='card-actions justify-between'>
+                        <div className="flex">
+                            <p className="mr-2">#{ticket.id}</p>
+                            <p className={priorityClass}><span className='font-semibold'>{ticket.priority}</span></p>
+                        </div>
+
+                        <div className="flex">
+                            <div className="mr-2">{ticket.customerName}</div>
+                            <div className=""><i className="fa-regular fa-calendar mr-1"></i>{ticket.date}</div>
+                        </div>
                     </div>
-                    <div className="card-actions justify-start">
-                        <div className="badge badge-outline">{ticket.customerName}</div>
-                        <div className="badge badge-outline">{ticket.date}</div>
-                    </div>
+
+
                 </div>
             </div>
         </div>

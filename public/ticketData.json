@@ -2,7 +2,7 @@
   {
     "id": "TCK-001",
     "status": "Open",
-    "priority": "High",
+    "priority": "High Priority",
     "title": "Login page not loading",
     "description": "User cannot access the login page due to server timeout.",
     "date": "2026-03-01",
@@ -11,7 +11,7 @@
   {
     "id": "TCK-002",
     "status": "In Progress",
-    "priority": "Medium",
+    "priority": "Medium Priority",
     "title": "Password reset email not received",
     "description": "Customer requested password reset but email was not delivered.",
     "date": "2026-03-02",
@@ -19,8 +19,8 @@
   },
   {
     "id": "TCK-003",
-    "status": "Resolved",
-    "priority": "Low",
+    "status": "Open",
+    "priority": "Low Priority",
     "title": "Typo in dashboard heading",
     "description": "Dashboard heading contains a spelling mistake.",
     "date": "2026-02-28",
@@ -29,7 +29,7 @@
   {
     "id": "TCK-004",
     "status": "Open",
-    "priority": "High",
+    "priority": "High Priority",
     "title": "Payment gateway error",
     "description": "Users are unable to complete payment using credit card.",
     "date": "2026-03-03",
@@ -38,7 +38,7 @@
   {
     "id": "TCK-005",
     "status": "In Progress",
-    "priority": "Medium",
+    "priority": "Medium Priority",
     "title": "Profile image upload failed",
     "description": "Uploading profile images returns a server error.",
     "date": "2026-03-01",
@@ -46,8 +46,8 @@
   },
   {
     "id": "TCK-006",
-    "status": "Resolved",
-    "priority": "Low",
+    "status": "In Progress",
+    "priority": "Low Priority",
     "title": "UI alignment issue",
     "description": "Buttons in settings page are not aligned properly.",
     "date": "2026-02-27",
@@ -56,7 +56,7 @@
   {
     "id": "TCK-007",
     "status": "Open",
-    "priority": "High",
+    "priority": "High Priority",
     "title": "Application crashes on mobile",
     "description": "The mobile version crashes when opening notifications.",
     "date": "2026-03-04",
@@ -65,7 +65,7 @@
   {
     "id": "TCK-008",
     "status": "In Progress",
-    "priority": "Medium",
+    "priority": "Medium Priority",
     "title": "Slow page loading",
     "description": "Dashboard takes more than 10 seconds to load.",
     "date": "2026-03-02",
@@ -73,8 +73,8 @@
   },
   {
     "id": "TCK-009",
-    "status": "Resolved",
-    "priority": "Low",
+    "status": "Open",
+    "priority": "Low Priority",
     "title": "Broken link in footer",
     "description": "Support page link in footer redirects to a 404 page.",
     "date": "2026-02-25",
@@ -83,7 +83,7 @@
   {
     "id": "TCK-010",
     "status": "Open",
-    "priority": "High",
+    "priority": "High Priority",
     "title": "Database connection error",
     "description": "Application fails to connect to the production database.",
     "date": "2026-03-05",
@@ -92,7 +92,7 @@
   {
     "id": "TCK-011",
     "status": "In Progress",
-    "priority": "Medium",
+    "priority": "Medium Priority",
     "title": "Search functionality not working",
     "description": "Search bar returns no results even for valid queries.",
     "date": "2026-03-03",
@@ -100,8 +100,8 @@
   },
   {
     "id": "TCK-012",
-    "status": "Resolved",
-    "priority": "Low",
+    "status": "Open",
+    "priority": "Low Priority",
     "title": "Notification icon missing",
     "description": "Notification icon does not appear in header.",
     "date": "2026-02-26",
@@ -110,7 +110,7 @@
   {
     "id": "TCK-013",
     "status": "Open",
-    "priority": "High",
+    "priority": "High Priority",
     "title": "File download error",
     "description": "Users cannot download PDF reports.",
     "date": "2026-03-04",
@@ -119,7 +119,7 @@
   {
     "id": "TCK-014",
     "status": "In Progress",
-    "priority": "Medium",
+    "priority": "Medium Priority",
     "title": "Email notification delay",
     "description": "System notifications are delivered after several minutes.",
     "date": "2026-03-02",
@@ -127,8 +127,8 @@
   },
   {
     "id": "TCK-015",
-    "status": "Resolved",
-    "priority": "Low",
+    "status": "In Progress",
+    "priority": "Low Priority",
     "title": "Colour theme not applied",
     "description": "Dark mode theme is not applied after selection.",
     "date": "2026-02-24",
