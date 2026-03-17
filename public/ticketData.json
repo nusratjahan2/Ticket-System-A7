@@ -98,7 +98,7 @@
     "date": "2026-03-03",
     "customerName": "James Hall"
   },
-  {
+  { 
     "id": "TCK-012",
     "status": "Open",
     "priority": "Low Priority",
