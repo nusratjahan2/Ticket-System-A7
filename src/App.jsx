@@ -6,13 +6,10 @@ import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar'
 import ShowAllData from './Components/Tickets/ShowAllData'
 import TaskStatus from './Components/Tickets/TaskStatus'
-import { ToastContainer, toast } from 'react-toastify'; //toastify
 
 function App() {
   const [selectedTickets, setSelectedTickets] = useState([]);
   const [resolvedTickets, setResolvedTickets] = useState([]);
-
-  const notify = () => toast("Wow so easy!");// toastify
 
   // add selected tickets to Task status
   const handleAddTicket = (ticketData) => {
@@ -35,8 +32,6 @@ function App() {
         <Navbar></Navbar>
         <Banner selectedTickets={selectedTickets} resolvedTickets={resolvedTickets} resolveTicket={resolveTicket}></Banner>
 
-        <button onClick={notify}>Notify!</button>
-        <ToastContainer />
 
         <div className='grid grid-cols-3 gap-2 mt-10'>
           <div className='col-span-2'>

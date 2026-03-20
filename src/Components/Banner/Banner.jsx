@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Banner = ({selectedTickets, resolvedTickets, resolveTicket}) => {
+const Banner = ({selectedTickets, resolvedTickets}) => {
 
     return (
         <div className='flex justify-center align-center my-8'>

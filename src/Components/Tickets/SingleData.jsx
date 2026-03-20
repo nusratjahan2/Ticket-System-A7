@@ -1,8 +1,13 @@
-  import React from 'react';
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify'; //toastify
+
+
 const SingleData = ({ ticket, handleAddTicket }) => {
     const handleCard = () => {
         handleAddTicket(ticket);
     }
+
+    const notify = () => toast("New task added!");// toastify
 
     // priority condition
     const priorityClass =
@@ -14,7 +19,12 @@ const SingleData = ({ ticket, handleAddTicket }) => {
 
     return (
         <div>
-            <div className="card bg-base-100 border-4 border-indigo-500 w-full shadow-sm cursor-pointer hover:shadow-lg transition" onClick={handleCard}>
+            <div 
+            className="card bg-base-100 border-4 border-indigo-500 w-full shadow-sm cursor-pointer hover:shadow-lg transition" 
+            onClick={() => {
+                handleCard();
+                notify();
+            }}>
                 <div className="card-body min-h-[200px] p-3">
                     <h2 className="card-title">
                         {ticket.title}
